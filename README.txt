@@ -6,5 +6,5 @@ If there is already a non-empty currentSnapshot.log in your current working dire
 newSnapshot.log is then copied into currentSnapshot.log and currentSnapshot.log is run through the scanner.
 HensonAntiVirus.py will also generate a file called infectedFiles.txt that will contain a list of files that tested positive for a virus hash (will be blank if no virus is found).
 
-P.S. I included the full md5.txt that i got off of https://virusshare.com/hashes.4n6 (file 153).
+P.S. I included a shortened md5.txt that i got off of https://virusshare.com/hashes.4n6 (file 153).
 There are a lot of hashes in there, so I tested my code with only 5 lines.
